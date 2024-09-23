@@ -1,0 +1,63 @@
+Create a Python application with a graphical user interface (GUI) that allows users to generate customized videos. The application should have the following features and functionality:
+
+GUI Layout:
+
+Create a main window with a menu bar and a central area for controls and preview.
+Include file selection buttons for audio and image inputs.
+Add text input fields for the video heading.
+Implement color pickers for the heading color, heading outline color, and audio wave color.
+Add a dropdown menu or similar control for selecting the heading font.
+Include a "Generate Video" button to start the video creation process.
+Add a preview area to show a static representation of the final video layout.
+
+
+Input Handling:
+
+Allow users to select an audio file (support common formats like MP3, WAV).
+Enable users to choose an image file for the video background (support formats like JPG, PNG).
+Implement text input for the video heading, with real-time preview if possible.
+
+
+Customization Options:
+
+Font selection for the heading (provide a list of installed system fonts).
+Color selection for the heading text, heading outline, and audio wave visualization.
+Option to adjust the size and position of the heading text.
+
+
+Video Generation:
+
+Use the selected image as the video background.
+Overlay the audio wave visualization on the background:
+
+Create a circular audio wave visualization that reacts to the audio file.
+Position the visualization in an aesthetically pleasing way (e.g., centered or off to one side).
+
+
+Add the customized heading text to the video.
+Use the selected audio file as the soundtrack for the video.
+Ensure the video length matches the duration of the audio file.
+
+
+Output:
+
+Generate the video file in a common format (e.g., MP4).
+Allow the user to specify the output location and filename.
+
+
+Error Handling:
+
+Implement proper error checking for file inputs, text inputs, and the video generation process.
+Display user-friendly error messages when issues occur.
+
+
+Additional Features (if time allows):
+
+Add a progress bar for the video generation process.
+Implement a basic preview functionality to show how the video will look before full generation.
+Allow users to save and load project settings.
+
+
+
+Use appropriate Python libraries for GUI development (e.g., Tkinter, PyQt), video processing (e.g., MoviePy, OpenCV), audio processing (e.g., pydub, librosa), and visualization (e.g., matplotlib, pyqtgraph). Ensure the code is well-organized, possibly using object-oriented programming principles to manage the complexity of the application.
+Remember to handle potential performance issues, especially during the video generation process, and consider using threading to keep the GUI responsive while processing.

@@ -1,0 +1,3 @@
+2024-09-22 21:47:37,918 - INFO - Starting Video Generator GUI
+2024-09-22 21:47:40,065 - DEBUG - Browse file called. Save mode: False
+2024-09-22 21:47:40,066 - DEBUG - Opening open file dialog

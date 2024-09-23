@@ -1,0 +1,5 @@
+numpy>=1.21.0
+librosa>=0.9.0
+matplotlib>=3.4.0
+moviepy>=1.0.3
+PyQt5>=5.15.0
